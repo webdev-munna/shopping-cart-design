@@ -1,5 +1,5 @@
 <?php
-require 'create-db.php';
+require ('create-db.php');
 
 $selQry = "SELECT *
 FROM student_details JOIN student_results AS exam_results
