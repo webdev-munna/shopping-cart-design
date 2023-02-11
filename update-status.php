@@ -1,5 +1,5 @@
 <?php
-require("connect-db.php");
+require "connect-db.php";
 
 $userId = $_GET['update_id'];
 $userStatus = $_GET['status'];
